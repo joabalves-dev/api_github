@@ -5,6 +5,13 @@
     gap: 15px;
 }
 
+.Repos .Card{
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
 .Repos h1{
     text-align: center;
     font-size: clamp(1rem, 1.4vw, 2rem);
@@ -12,4 +19,28 @@
 
 .Repos h1 span{
     text-transform: capitalize;
+}
+
+.Repos .list-repos{
+    list-style: none;
+}
+
+.Repos .list-repos li{
+    margin: 15px 0;
+    transition: all ease-in-out .4s;
+    border-radius: 3px;
+}
+
+.Repos .list-repos li:hover{
+    background: rgba(255, 255, 255, .4);
+}
+
+.Repos .list-repos li a{
+    display: block;
+    padding: 15px 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: initial;
+    font-size: clamp(.8rem, 1.1vw, 1.8rem);
+
 }

@@ -24,7 +24,7 @@ const InputSearch = (_) => {
   }
 
   return (
-    <Card>
+    <Card className='Card-InputSearch'>
       <div className="InputSearch">
         <input type="text" name="search" id="search" ref={input} />
         <button onClick={handleClick}>Buscar</button>

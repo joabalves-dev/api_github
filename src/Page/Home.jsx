@@ -13,6 +13,7 @@ function Home() {
     <div className="Home">
       <InputSearch />
       {context.state.user ? <User /> : ""}
+      <hr className='hr-bottom'/>
     </div>
   );
 }
