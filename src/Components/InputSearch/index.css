@@ -1,0 +1,23 @@
+.InputSearch{
+    display: flex;
+    gap: 15px;
+}
+
+.InputSearch input{
+    flex:1;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 15px;
+    border:none;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, .6);
+}
+
+.InputSearch button{
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: tomato;
+    color: #fff;
+    border: none;
+}
